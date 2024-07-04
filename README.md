@@ -16,5 +16,5 @@ criptografar uma mensagem que o úsuario digitar afim de que só a pessoa com es
 
 <h2> Autor </h2>
 
-| [<img loading="lazy" src="https://github.com/DevCayna/decodificador_de_texto/assets/133891837/0b4c7f8b-a327-4e18-857f-7da144a4dff9" width=115> <br> <sub> Caynã Victor Alves </sub>](https://github.com/DevCayna) |
+[<img loading="lazy" src="https://github.com/DevCayna/decodificador_de_texto/assets/133891837/0b4c7f8b-a327-4e18-857f-7da144a4dff9" width=115> <br> <sub> Caynã Victor Alves </sub>](https://github.com/DevCayna)
 
