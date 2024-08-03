@@ -5,18 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de texto</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Área de importe do css-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <img src="img/logo_alura.jpg" alt="logo da Alura"> 
+        </nav>
+    </header>
+
+
+    <main class="apresentacao">
+
+        <section class="apresentacao__conteudo">
+            <textarea class="apresentacao__conteudo__textarea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="informacao">
+                <h6>Apenas letras minúsculas e sem acentos</h6>
+            </div>
+
+            <div class="container__botoes">
+                <button class="container__botao__criptografia">Criptografia </button>
+                <button class="container__botao__descriptografia">Descriptografia</button>
+            </div>  
+
+        </section>
+
+
+        <section class="container__resultado__texto">
+            <textarea class="container__resultado__textarea"   cols="20" rows="10"></textarea>
+            <button class="container__resultado__botao">Copiar </button>
+        </section>
+    </main>
 
 
 
-
-
- <!-- Aréa de importe do Js-->
+ <!-- Área de importe do Js-->
  <script src="app.js" defer></script>
 </body>
 </html>
