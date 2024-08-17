@@ -18,10 +18,13 @@
     font-family: var(--fonte--principal);
     font-weight: 400;
     line-height: 150%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .logoalura{
-    margin-left: 10px;
+    margin-left: 25px;
     padding-top: 10px;
     width: 2%;
 }
@@ -36,7 +39,7 @@ main{
     border: none;
     font-size: 32px;
     color: var(--cor--titulo);
-    margin-top: 90px;
+    margin-top: 170px;
     text-transform: lowercase;
 }
 
@@ -94,7 +97,7 @@ main{
     color: var(--cor--titulo);
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
+    margin-left: 125px;
     margin-top: 402px;
     width: 336px;
     font-size: 16px;
