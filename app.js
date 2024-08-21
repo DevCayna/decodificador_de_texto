@@ -57,11 +57,10 @@ function descriptar(stringDescriptada) {
 
 // Copiar
 
-function copyToClickBoard()
-{
-    document.getElementById(".container__mensagem__botao").addEventListener('click', clipboardCopy);
-    async function clipboardCopy() {
-    let text = document.querySelector(".container__mensagem__textarea").value;
-    await navigator.clipboard.writeText(text);
-}
+function copiar(){
+    navigator.clipboard
+    .readText()
+    .then(
+        (clipText) => (document.querySelector(".container__mensagem__textarea").innerText += clipText),
+    );
 }
